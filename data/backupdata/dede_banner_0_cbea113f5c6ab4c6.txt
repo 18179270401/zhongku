@@ -1,0 +1,3 @@
+INSERT INTO `dede_banner` VALUES('11','images/banner/s_201707271048075080.jpg','http://www.baidu.com','测试','10');
+INSERT INTO `dede_banner` VALUES('12','images/banner/c1212.png','http://www.baidu.com','测试2','5');
+INSERT INTO `dede_banner` VALUES('13','images/banner/b1212.png','http://www.baidu.com','测试','10');

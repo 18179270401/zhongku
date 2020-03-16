@@ -219,6 +219,7 @@ else if($dopost=='save')
     }
 	$description = HtmlReplace($description, -1);//2011.06.30 增加html过滤 （by:织梦的鱼）
     //保存到主表
+    $mtypesid = intval($mtypesid);
     $inQuery = "INSERT INTO `#@__archives`(id,typeid,sortrank,flag,ismake,channel,arcrank,click,money,title,shorttitle,
 color,writer,source,litpic,pubdate,senddate,mid,description,keywords,mtype)
 VALUES ('$arcID','$typeid','$sortrank','$flag','$ismake','$channelid','$arcrank','0','$money','$title','$shorttitle',

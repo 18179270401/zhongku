@@ -1,0 +1,8 @@
+INSERT INTO `dede_search_keywords` VALUES('1','力学','力学','1','0','1526102003','0','0');
+INSERT INTO `dede_search_keywords` VALUES('2','静态液压','静态液压 液压 静态','2','1','1526102199','0','0');
+INSERT INTO `dede_search_keywords` VALUES('3','111','111','4','0','1526102387','0','0');
+INSERT INTO `dede_search_keywords` VALUES('4','液态','液态','5','0','1526102444','0','0');
+INSERT INTO `dede_search_keywords` VALUES('5','液压','液压','1','1','1526102416','0','0');
+INSERT INTO `dede_search_keywords` VALUES('6','栏目动态','栏目动态 动态 栏目','1','0','1526378170','0','0');
+INSERT INTO `dede_search_keywords` VALUES('7','54','54','1','0','1526545719','0','0');
+INSERT INTO `dede_search_keywords` VALUES('8','测试','测试','1','0','1526552576','0','0');

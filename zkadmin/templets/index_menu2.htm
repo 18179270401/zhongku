@@ -1,0 +1,178 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=<?php echo $cfg_soft_lang; ?>">
+<title>DedeCms menu</title>
+<link rel="stylesheet" href="css/base.css" type="text/css" />
+<script language="javascript" type="text/javascript" src="../include/js/dedeajax2.js"></script>
+<script src="../include/js/jquery/jquery.js" language="javascript" type="text/javascript"></script>
+<?php
+echo "<script language='javascript'>var curopenItem = '$openitem';</script>\r\n";
+?>
+<script language="javascript" type="text/javascript" src="js/leftmenu.js"></script>
+<style>
+div {
+	padding:0px;
+	margin:0px;
+}
+body {
+	padding:0px;
+	margin:auto;
+	text-align:center;
+	background-color:#eff5ed;
+	background:url(images/leftmenu_bg.gif);
+	overflow:scroll;
+	overflow-x:hidden;
+	scrollbar-face-color: #eff8e6;
+	scrollbar-shadow-color: #edf2e3;
+	scrollbar-highlight-color: #ffffff;
+	scrollbar-3dlight-color: #F2F2F2;
+	scrollbar-darkshadow-color: #bdbcbd;
+	scrollbar-arrow-color: #bdbcbd
+}
+dl.bitem {
+	clear:both;
+	margin: 0;
+}
+dl.bitem2 {
+	clear:both;
+	background:url(images/menunewbg2.gif) repeat-x;
+}
+dl.bitem dt, dl.bitem2 dt {
+	height:25px;
+	line-height:25px;
+	padding-left:35px;
+	cursor:pointer;
+}
+dl.bitem dt b, dl.bitem2 dt b {
+	color:#4D6C2F;
+}
+dl.bitem dd, dl.bitem2 dd {
+	background-color:#fff;
+}
+div.items {
+	clear:both;
+	padding:0px;
+	height:0px;
+}
+#sunitems1_1 dt{
+	display: none;
+}
+.fllct {
+	float:left;
+	width:85px;
+}
+.flrct {
+	padding-top:8px;
+	float:left;
+}
+.sitemu li {
+	position: relative;
+	padding:0px 0px 0px 35px;
+	line-height:35px;
+	height: 35px;
+	border-bottom: solid 1px #ddd;
+}
+.sitemu li.active{
+	background: #428fb9;
+	color: #fff;
+}
+.sitemu li.active a{
+	color: #fff;
+}
+.sitemu li a{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 10;
+	display: block;
+	text-indent: 30px;
+}
+.sitemu li .flrct a{
+	top: 8px;
+	left: 95px;
+	width: 12px;
+	max-width: 15px;
+}
+li {
+	height:22px;
+}
+a.mmac div {
+	background:url(images/leftbg2.gif) no-repeat;
+	height:37px!important;
+	height:47px;
+	padding:6px 4px 4px 10px;
+	word-wrap: break-word;
+	word-break : break-all;
+	font-weight:bold;
+	color:#325304;
+}
+a.mm div {
+	background:url(images/leftmbg1.gif) no-repeat;
+	height:37px!important;
+	height:47px;
+	padding:6px 4px 4px 10px;
+	word-wrap: break-word;
+	word-break : break-all;
+	font-weight:bold;
+	color:#475645;
+	cursor:pointer;
+}
+a.mm:hover div {
+	background:url(images/leftbg2.gif) no-repeat;
+	color:#4F7632;
+}
+.mmf {
+	height:1px;
+	padding:5px 7px 5px 7px;
+}
+</style>
+<link href="images/style<?php echo $cfg_admin_skin;?>/style.css" rel="stylesheet" type="text/css" />
+<base target="main" />
+</head>
+<body target="main" onLoad="CheckOpenMenu();">
+<table width="195" align="left" border='0' cellspacing='0' cellpadding='0' style="text-align:left;">
+  <tr>
+    <td width='195' id='mainct' valign="top"><div id='ct1'>
+        <?php
+GetMenus($cuserLogin->getUserRank(), 'main');
+?>
+      </div>
+      <div id='ct100'></div>
+      <div id='ct3'></div>
+      <div id='ct5'></div>
+      <div id='ct6'></div>
+      <div id='ct7'></div>
+      <div id='ct20'></div>
+      <div id='ct10'></div></td>
+  </tr>
+</table>
+<?php
+if(!empty($openitem) && $openitem!=1)
+{
+?>
+<script language='javascript'>
+	ShowMainMenu(100);
+</script>
+<?php
+}
+?>
+<script language="javascript">
+function myAlert()
+{
+	alert('dede');	
+};
+
+var li = document.querySelectorAll("#sunitems1_1 ul li");
+for(var i=0;i<li.length;i++){
+	li[0].className="active";
+	li[i].onclick=function(){
+		for(var j=0;j<li.length;j++){
+			li[j].className="";
+		};
+		this.className="active";
+	};
+}
+</script>
+</body>
+</html>

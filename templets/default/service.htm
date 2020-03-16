@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {dede:include filename="meta.htm"/}
+    <title>{dede:field.typename/}-{dede:global.cfg_webname/}</title>
+</head>
+<body>
+{dede:include filename="head.htm"/}
+
+<div class="banner-son">
+    <img src="/uploads/allimg/180704/1_1126525071.jpg" class="pic1">
+    <img src="/uploads/allimg/180704/1_1130552241.jpg" class="pic2">
+</div>
+
+
+<div class="bread clearfix margin">
+    <div class="left title">
+        服务内容
+    </div>
+    <div class="positon right">
+        <span>我的位置：</span> {dede:field name='position'/}
+    </div>
+</div>
+
+<div class="service">
+    <div class="margin">
+        {dede:field.content/}
+    </div>
+</div>
+
+
+
+{dede:include filename="footer.htm"/}
+</body>
+</html>

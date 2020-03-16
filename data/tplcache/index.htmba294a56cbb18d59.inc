@@ -1,0 +1,40 @@
+<?php
+$z[0]=Array("include","",80,115);
+$z[0][4]=array();
+$z[0][4]['filename']="meta.htm";
+$z[1]=Array("include","",839,874);
+$z[1][4]=array();
+$z[1][4]['filename']="head.htm";
+$z[2]=Array("arclist","\r\n                        <div class=\"swiper-slide\">\r\n                            <a href=\"/plus/list.php?tid=2\"><img src=\"[field:litpic/]\"></a>\r\n                            <!-- <a href=\"/plus/list.php?tid=2\"><img src=\"https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1558124756,1684547130&fm=26&gp=0.jpg\"></a> -->\r\n                            <span class=\"czdq\"></span>\r\n                        </div>\r\n                        ",1363,1889);
+$z[2][4]=array();
+$z[2][4]['typeid']="2,13";
+$z[2][4]['flag']="h";
+$z[2][4]['row']="5";
+$z[2][4]['orderby']="hot";
+$z[2][4]['channelid']="1";
+$z[3]=Array("arclist","\r\n                        <div class=\"swiper-slide\">\r\n                            <a href=\"/plus/list.php?tid=3\"><img src=\"[field:litpic/]\"></a>\r\n                            <span class=\"czdq\"></span>\r\n                        </div>\r\n                        ",2502,2849);
+$z[3][4]=array();
+$z[3][4]['typeid']="3,14";
+$z[3][4]['flag']="h";
+$z[3][4]['row']="5";
+$z[3][4]['orderby']="hot";
+$z[3][4]['channelid']="1";
+$z[4]=Array("arclist","\r\n                        <div class=\"swiper-slide\">\r\n                            <a href=\"/plus/list.php?tid=4\"> <img src=\"[field:litpic/]\"></a>\r\n                            <span class=\"czdq\"></span>\r\n                        </div>\r\n                        ",3350,3698);
+$z[4][4]=array();
+$z[4][4]['typeid']="4,15";
+$z[4][4]['flag']="h";
+$z[4][4]['row']="5";
+$z[4][4]['orderby']="hot";
+$z[4][4]['channelid']="1";
+$z[5]=Array("arclist","\r\n                        <div class=\"swiper-slide\">\r\n                            <a href=\"/plus/list.php?tid=5\"><img src=\"[field:litpic/]\"></a>\r\n                            <span class=\"czdq\"></span>\r\n                        </div>\r\n                        ",4272,4618);
+$z[5][4]=array();
+$z[5][4]['typeid']="5,16";
+$z[5][4]['flag']="h";
+$z[5][4]['row']="5";
+$z[5][4]['orderby']="hot";
+$z[5][4]['channelid']="1";
+$z[6]=Array("include","",5570,5607);
+$z[6][4]=array();
+$z[6][4]['filename']="footer.htm";
+
+?>

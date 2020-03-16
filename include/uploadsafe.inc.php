@@ -40,7 +40,7 @@ foreach($_FILES as $_key=>$_value)
     if(empty(${$_key.'_size'}))
     {
         ${$_key.'_size'} = @filesize($$_key);
-    }
+    } $imtypes = array("image/pjpeg", "image/jpeg", "image/gif", "image/png", "image/xpng", "image/wbmp", "image/bmp"); if(in_array(strtolower(trim(${$_key.'_type'})), $imtypes)) { $image_dd = @getimagesize($$_key); if($image_dd == false){ continue; } if (!is_array($image_dd)) { exit('Upload filetype not allow !'); } }
     
     $imtypes = array
     (
@@ -50,7 +50,7 @@ foreach($_FILES as $_key=>$_value)
 
     if(in_array(strtolower(trim(${$_key.'_type'})), $imtypes))
     {
-        $image_dd = @getimagesize($$_key);
+        $image_dd = @getimagesize($$_key); if($image_dd == false){ continue; }
         if (!is_array($image_dd))
         {
             exit('Upload filetype not allow !');

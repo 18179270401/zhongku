@@ -89,5 +89,5 @@ if($litpic != '')
 }
 else
 {
-    $litpic =$oldlitpic;
+    $litpic =$oldlitpic; if (strpos( $litpic, '..') !== false || strpos( $litpic, $cfg_user_dir."/{$userid}/" ) === false) exit('not allowed path!');
 }

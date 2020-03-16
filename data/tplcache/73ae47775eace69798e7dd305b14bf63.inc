@@ -1,0 +1,1 @@
+<a href='[field:url/]' target="_blank"><img src="/zkadmin/[field:img/]" alt="[field:alt/]"></a>

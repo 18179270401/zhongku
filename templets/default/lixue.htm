@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {dede:include filename="meta.htm"/}
+    <title>{dede:field.typename/}-{dede:global.cfg_webname/}</title>
+</head>
+<body>
+{dede:include filename="head.htm"/}
+
+{dede:list pagesize="999" orderby="hot" addfields="body,pdf"}
+<div class="lixue">
+    <div class="pdf">[field:pdf/]</div>
+    <div class="margin">
+        <div class="title">
+            <h1>[field:title/]</h1>
+            <h2>[field:body/]</h2>
+        </div>
+        <div class="pic">
+            <img src="[field:litpic/]">
+            <span class="czdq"></span>
+        </div>
+    </div>
+</div>
+{/dede:list}
+
+</div>
+
+
+{dede:include filename="footer.htm"/}
+</body>
+</html>

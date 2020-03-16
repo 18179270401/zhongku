@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>首页 - {dede:global.cfg_webname/}</title>
+    <meta name="description" content="" /> 
+    <!--1.rendering mode-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!--2.mobile requied-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    {dede:include filename='meta.htm'/}
+</head>
+
+<body>
+    {dede:include filename="head.htm"/}
+    <div class="wraper">
+        <div class="banner">
+            {dede:sql sql="SELECT * FROM dede_banner WHERE id=1"}
+            [field:path runphp="yes"]
+            $p = explode(',', @me); array_pop($p); $len = count($p); if($len>=1){ @me = '
+                <img src="/zkadmin/'.$p[0].'">
+                <img src="/zkadmin/'.$p[1].'">
+                <img src="/zkadmin/'.$p[2].'">
+            '; } [/field:path]
+            {/dede:sql}
+        </div>
+    </div>
+    <div>
+        {dede:loop table='dede_banner' sort='' row='5' if=''}
+         <a href='[field:url/]' target="_blank"><img src="/zkadmin/[field:img/]" alt="[field:alt/]"></a>
+        {/dede:loop}
+
+    </div>
+    {dede:include filename="footer.htm"/}
+    <!--only homepage slide plugins-->
+    <script src="/style/libs/jquery.SuperSlide.2.1.1.js"></script>
+    {dede:global.cfg_powerby/}
+    {dede:global.cfg_beian/}
+</body>
+
+</html>
