@@ -1,0 +1,388 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>技术支持_我的网站</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="/templets/default/style/dedecms.css" rel="stylesheet" media="screen" type="text/css" />
+<meta http-equiv="mobile-agent" content="format=xhtml;url=/m/list.php?tid=7">
+<script type="text/javascript">if(window.location.toString().indexOf('pref=padindex') != -1){}else{if(/AppleWebKit.*Mobile/i.test(navigator.userAgent) || (/MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/.test(navigator.userAgent))){if(window.location.href.indexOf("?mobile")<0){try{if(/Android|Windows Phone|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)){window.location.href="/m/list.php?tid=7";}else if(/iPad/i.test(navigator.userAgent)){}else{}}catch(e){}}}}</script>
+
+<link href="/CSS/public.css" rel="stylesheet" media="screen" type="text/css" />
+<link href="/CSS/main.css" rel="stylesheet" media="screen" type="text/css" />
+
+<link rel="stylesheet" id="normalize-css" href="/CSS/jishuzhichi/normalize.css" type="text/css" media="all">
+<link rel="stylesheet" id="theme-framework-css" href="/CSS/jishuzhichi/rt-css-framework.css" type="text/css" media="all">
+<link rel="stylesheet" id="form-css" href="/CSS/jishuzhichi/index.0308.css" type="text/css" media="all">
+<link rel="stylesheet" id="theme-style-css" href="/CSS/jishuzhichi/style.css" type="text/css" media="all">
+<script type="text/javascript" src="/CSS/jishuzhichi/jquery.js"></script>
+
+<script>
+    function scheck() {
+        var keyword = window.document.getElementById("keyword").value;
+        if (keyword == "") {
+        alert("请输入关键字");
+        return false;
+        }
+        var params = '{keyword:"' + keyword + '"}';
+        var url = "/2019/search.aspx/encryptword"
+        jQuery.ajax({
+        type: "POST",                   //提交方式 
+        url: url,                           //提交的页面/方法名 
+        data: params,                   //参数（如果没有参数：null） 
+        dataType: "text",               //类型 
+        contentType: "application/json; charset=utf-8",
+
+        //成功
+        success: function (msg) {
+            var data = eval("(" + msg + ")").d;
+            window.location.href = "/zh-cn/search/" + data + ".html";
+        }
+
+        });
+
+    }
+</script>
+
+
+
+</head>
+
+<body class="page responsive menu-style-one with_subs wide header-design1 with_subs">
+    <div class="head">
+    <div class="margin clearfix">
+        <div class="logo left">
+            <a href="/"></a>
+            <img src="/uploads/allimg/180522/1_1506139491.png">
+            <span class="czdq"></span>
+        </div>
+        <div class="search right">
+            <form id="search" name="search" method="post" action="/plus/search.php">
+                <div class="box clearfix">
+                    <input type="text" required name="keyword" class="search-ss keyword left">
+                    <button type="submit" name="button" class="search_btn search-an search-btn right"><img src="/images/search.png"></button>
+                </div>
+            </form>
+        </div>
+
+        <div class="nav right">
+            <ul>
+                <li>
+                    <a href="/a/gongsiyuanjing/">公司愿景</a>
+                    <div class="nav-son menu2" id="slide1">
+                        
+                    </div>
+                </li><li>
+                    <a href="/a/lixuexingnen/">力学性能</a>
+                    <div class="nav-son menu2" id="slide2">
+                        
+                    </div>
+                </li><li>
+                    <a href="/a/yuansufenxi/">元素分析</a>
+                    <div class="nav-son menu2" id="slide3">
+                        
+                    </div>
+                </li><li>
+                    <a href="/a/caixiangfenxi/">材相分析</a>
+                    <div class="nav-son menu2" id="slide4">
+                        
+                    </div>
+                </li><li>
+                    <a href="/a/guangxuexianwei/">光学显微</a>
+                    <div class="nav-son menu2" id="slide5">
+                        
+                    </div>
+                </li><li>
+                    <a href="/a/3Dsaomiao/">3D扫描</a>
+                    <div class="nav-son menu2" id="slide6">
+                        
+                    </div>
+                </li><li>
+                    <a href="/a/jishuzhichi/">技术支持</a>
+                    <div class="nav-son menu2" id="slide7">
+                        
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="nav-phone">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <div class="nav-main">
+        <ul>
+            <li><a href="/">网站首页</a></li>
+            <li>
+                <a href="/a/gongsiyuanjing/">公司愿景</a>
+                <div class="nav-son menu2" id="slide1">
+                    
+                </div>
+            </li><li>
+                <a href="/a/lixuexingnen/">力学性能</a>
+                <div class="nav-son menu2" id="slide2">
+                    
+                </div>
+            </li><li>
+                <a href="/a/yuansufenxi/">元素分析</a>
+                <div class="nav-son menu2" id="slide3">
+                    
+                </div>
+            </li><li>
+                <a href="/a/caixiangfenxi/">材相分析</a>
+                <div class="nav-son menu2" id="slide4">
+                    
+                </div>
+            </li><li>
+                <a href="/a/guangxuexianwei/">光学显微</a>
+                <div class="nav-son menu2" id="slide5">
+                    
+                </div>
+            </li><li>
+                <a href="/a/3Dsaomiao/">3D扫描</a>
+                <div class="nav-son menu2" id="slide6">
+                    
+                </div>
+            </li><li>
+                <a href="/a/jishuzhichi/">技术支持</a>
+                <div class="nav-son menu2" id="slide7">
+                    
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="mask"></div>
+    <!-- background wrapper -->
+    <div id="container">
+  
+      <!-- end tag #header -->
+      <div class="content_holder">
+        <div class="content_second_background">
+          <div class="content_area clearfix">
+            <section class="content_block_background" style="background-attachment: scroll;">
+              <section id="row-1046" class="content_block clearfix">
+                <section id="post-1046" class="content contact post-1046 page type-page status-publish hentry">
+                  <div class="row clearfix withborder">
+                    <div class="box three margin-t40">
+                      <article id="contact-china">
+                        <div class="caption embedded ">
+                          <div class="featured_image_holder img_loaded">
+                            <img src="/CSS/jishuzhichi/china.jpg" alt="Labthink">
+                          </div>
+                          <h3 class="featured_article_title "><a title="中国" target="_self">中国</a></h3>
+                        </div>
+                        <h4 class="margin-t20"><strong>上海众酷有限公司 总部</strong></h4>
+                        地址：上海市裕安经济小区144号（332100）<br>
+                        总机：400-833-8356<br>
+                        邮箱: info@bv-tech.com.cn
+                        <h4 class="margin-t20">上海众酷有限公司 湖北办</h4>
+                        地址：湖北省武汉市光谷大道特一号国际企业中心四期A座8层<br>
+                        总机：400-886-9530<br>
+                        邮箱@bv-tech.com.cn
+                        <p></p>
+                      </article>
+                      <!-- <article id="contact-usa">
+                        <div class="caption embedded ">
+                          <div class="featured_image_holder img_loaded">
+                            <img src="/CSS/jishuzhichi/us.jpg" alt="Labthink International">
+                          </div>
+                          <h3 class="featured_article_title "><a title="美国" target="_self">美国</a></h3>
+                        </div>
+                        <h4 class="margin-t20">Labthink International, Inc.</h4>
+                        200 River's Edge Drive, Medford, MA, USA<br>
+                        Phone: (+1) 617-830-2190<br>
+                        FAX: (+1) 781-219-3638<br>
+                        Email: info@labthinkinternational.com
+                      </article> -->
+                    </div>
+                    <div class="box two-three margin-t40">
+                      <h3>—— 在线留言</h3>
+                      <p><img src="/CSS/jishuzhichi/contact_title.png" alt=""></p>
+                      <p><i class="decs_text">为了更好的为您提供服务，请尽可能详细的填写以下信息。带<span style="color: #f00">*</span>的为必填项！</i> </p>
+                      <div class="contact_form dynamic-class-39083 fadeInDown animated">
+                        <div class="clear"></div>
+                        <div class="result"></div>
+                        <form name="form1" method="post" action="http://www.baidu.com" id="form1" class="labthink topLabel page1">
+                          <ul>
+                            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                              <tbody>
+                                <tr>
+                                  <td colspan="2">
+                                    <li id="fo129li1" class="notranslate ">
+                                      <label id="title1" class="desc" for="Field1">主题 </label>
+                                      <div>
+                                        <span class="left">
+                                          <input value="意见建议" name="Subject" type="radio" id="Subject1" checked="checked">
+                                          意见建议 </span><span class="right">
+                                          <input value="BUG反馈" name="Subject" type="radio" id="Subject2">
+                                          BUG反馈 </span>
+                                      </div>
+                                      <div>
+                                        <span class="left">
+                                          <input value="采购需求" name="Subject" type="radio" id="Subject3">
+                                          采购需求 </span><span class="right">
+                                          <input value="投诉" name="Subject" type="radio" id="Subject4">
+                                          投诉 </span>
+                                      </div>
+                                    </li>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td width="50%">
+                                    <li id="Li1" class="notranslate">
+                                      <label id="Label1" class="desc" for="Field1">公司名称 <span id="Span2"
+                                          class="req">*</span></label>
+                                      <div>
+                                        <input name="txtcompany" type="text" maxlength="20" id="txtcompany"
+                                          class="field text medium">
+                                        <span id="RequiredFieldValidator2" style="color:Red;display:none;"></span>
+                                      </div>
+                                    </li>
+                                  </td>
+                                  <td width="50%">
+                                    <li id="fo129li2" class="notranslate">
+                                      <label id="title2" class="desc" for="Field2">姓名 <span class="req">*</span> </label>
+                                      <div>
+                                        <input name="txtfirstname" type="text" maxlength="20" id="txtfirstname"
+                                          class="field text medium">
+                                        <span id="RequiredFieldValidator4" style="color:Red;display:none;"></span>
+                                      </div>
+                                    </li>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td width="50%">
+                                    <li id="fo129li10" class="notranslate">
+                                      <label id="title10" class="desc" for="Field10">电子邮箱 <span id="req_10"
+                                          class="req">*</span> </label>
+                                      <div>
+                                        <input name="txtemail" type="text" maxlength="50" id="txtemail"
+                                          class="field text medium">
+                                        <span id="RegularExpressionValidator1"
+                                          style="color:Red;display:none;">请输入正确的邮箱地址！</span>
+                                        <span id="RequiredFieldValidator6" style="color:Red;display:none;"></span>
+                                      </div>
+                                    </li>
+                                  </td>
+                                  <td width="50%">
+                                    <li id="fo129li11" class="phone notranslate">
+                                      <label id="title11" class="desc" for="Field11">电话号码 <span id="Span3"
+                                          class="req">*</span></label>
+                                      <div>
+                                        <input name="txtmobile" type="text" maxlength="40" id="txtmobile"
+                                          class="field text medium" size="20">
+                                        <span id="RequiredFieldValidator1" style="color:Red;display:none;"></span>
+                                      </div>
+                                    </li>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td width="50%">
+                                    <li id="fo129li13" class="notranslate">
+                                      <label id="title13" class="desc" for="Field13">国家 </label>
+                                      <div>
+                                        <input name="txtcountry" type="text" maxlength="50" id="txtcountry"
+                                          class="field text medium">
+                                      </div>
+                                    </li>
+                                  </td>
+                                  <td width="50%">
+                                    <li id="fo129li15" class="phone notranslate">
+                                      <label id="title15" class="desc" for="Field15">地址 </label>
+                                      <div>
+                                        <input name="txtaddress" type="text" maxlength="200" id="txtaddress"
+                                          class="field text medium" size="20">
+                                      </div>
+                                    </li>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td width="50%" colspan="2">
+                                    <li id="fo129li22" class="notranslate ">
+                                      <label id="title22" class="desc" for="Field22">详细需求 <span id="Span4"
+                                          class="req">*</span> </label>
+                                      <div>
+                                        <textarea name="txtdetail" rows="10" cols="50" id="txtdetail"
+                                          class="field textarea small"></textarea>
+                                        <span id="RequiredFieldValidator3" style="color:Red;display:none;"></span>
+                                      </div>
+                                    </li>
+                                  </td>
+                                </tr>
+  
+                                <tr>
+                                  <td width="50%" colspan="2">
+                                    <li class="buttons ">
+                                      <div>
+                                        <a id="lbtnSubmit"
+                                          class="button_ default medium margin-t0 align bounceIn animated"
+                                          href="javascript:void(0);">提交留言</a>
+                                      </div>
+                                    </li>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </ul>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <!-- / end section .content -->
+              </section>
+            </section>
+          </div>
+          <!-- / end div .content_area -->
+        </div>
+  
+        <!-- / end div .content_second_background -->
+      </div>
+    </div>
+  
+    <!-- end div #container -->
+    
+  
+  <div class="foot">
+    <div class="margin clearfix">
+        <div class="box clearfix">
+            <div class="left text clearfix">
+                <div class="title left">
+                    <h1>联系我们</h1>
+                    <h2>Contact Us</h2>
+                </div>
+                <div class="zhuti left">
+                    <ul>
+                        <li>总公司地址：上海市裕安经济小区   ／  华中区公司地址：湖北省武汉市光谷大道特一号国际企业中心四期A座8层</li>  
+                        <li>电子邮箱：info@bv-tech.com.cn</li>
+                        <li>热线电话：400-833-8356  ／  400-886-9530</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ewm right">
+               <!-- <img src="/images/ewm.jpg">
+                <h1>微信关注</h1>-->
+            </div>
+        </div>
+      <br>
+        <div class="bottom">
+            <span>Copyright © 2019 勇航科技 版权所有 <a href="http://www.miitbeian.gov.cn" target="_blank">沪ICP备1234567号</a> 版权声明</span>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="/JS/jquery.min.js"></script>
+<script type="text/javascript" src="/JS/main.js"></script>
+<script type="text/javascript" src="/JS/swiper.min.js"></script>
+  </body>
+
+
+
+</html>

@@ -561,7 +561,8 @@ class Archives
                 $tmpfile =str_replace('.htm','_m.htm',$tmpfile);
             }
         }
-        if (!preg_match("#.htm$#", $tmpfile)) return FALSE;
+        // if (!preg_match("#.htm$#", $tmpfile)) return FALSE;
+        if (!preg_match("#.htm$#", $tmpfile) && !preg_match("#.html$#", $tmpfile)) return FALSE;
         return $tmpfile;
     }
 

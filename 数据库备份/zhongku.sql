@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50644
 File Encoding         : 65001
 
-Date: 2020-03-16 10:28:53
+Date: 2020-03-18 14:03:21
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -38,6 +38,13 @@ INSERT INTO `dede_addonarticle` VALUES ('4', '2', '<div>\r\n	通过光学显微�
 INSERT INTO `dede_addonarticle` VALUES ('5', '5', '<div>\r\n	美国科罗拉多州立大学科学家演示了一种空间分辨率达2&eta;(&eta;是非线性光强反应单位最高级)的多光子&mdash;空间频率调制成像(MP-SPIFI)技术，突破了光学显微成像分辨率极限。下面就随嵌入式小编一起来了解一下相关内容吧。</div>\r\n<div>\r\n	&nbsp;</div>\r\n<div>\r\n	&nbsp;</div>\r\n<div>\r\n	&nbsp;</div>\r\n<div>\r\n	　　超分辨率显微成像技术因克服衍射极限荣获2014年诺贝尔化学奖，但需要将单个荧光分子的衍射精确控制在极限范围内。研究人员考虑另一种现已成熟的深组织成像技术&mdash;&mdash;多光子显微成像，这种方法能获得标准超分辨率技术无法提供的样本信息。</div>\r\n<div>\r\n	&nbsp;</div>\r\n<div>\r\n	　　研究人员在发表于美国《国家科学院学报》的论文中首次证明，多光子荧光和二次同步谐波都能实现超分辨率，二者结合使用时，两个光子被猝灭，发出一个两倍频率的光子。他们还开发了专门的多光子&mdash;空间频率调制成像显微镜，以HeLa细胞和碲化镉太阳能电池为样本，通过荧光和二次谐波同时收集图像信息，产生了纳米级图像，空间分辨率达到2&eta;，超过传统的多光子显微镜。</div>\r\n<div>\r\n	&nbsp;</div>\r\n<div>\r\n	　　在传统的多光子显微镜中，超短激光脉冲在样本上聚集成一个紧密的光点，激发荧光生成一幅图像。而多光子&mdash;空间频率调制成像显微镜是用多个飞秒激光脉冲同时照亮较大光区产生干涉，以此来构建图像。</div>\r\n<div>\r\n	&nbsp;</div>\r\n<div>\r\n	　　多光子&mdash;空间频率调制成像显微镜的另一个重要优势是，能为高度分散的生物组织提供超分辨率成像。大部分超分辨技术要把细胞固定在玻璃片上，所以不适用于活体组织。新技术能用于活体组织或较大的生物组织样本。研究人员指出，如果能提高从活体组织样本收集的图像分辨率，同时结合多种比较机制，能获得大量生物信息。这一成果打破了现有光学显微镜的极限，能以前所未有的分辨率观察活组织中单个细胞的生理过程。</div>\r\n<div>\r\n	&nbsp;</div>\r\n<div>\r\n	&nbsp; &nbsp; 以上是关于嵌入式中-科学家突破光学显微成像分辨率极限的相关介绍，如果想要了解更多相关信息，请多多关注eeworld，eeworld电子工程将给大家提供更全、更详细、更新的资讯信息。</div>\r\n', '', '', '113.89.40.238');
 INSERT INTO `dede_addonarticle` VALUES ('6', '5', '<div>\r\n	曼彻斯特大学研制出50纳米级的光学显微镜</div>\r\n<div>\r\n	&nbsp;</div>\r\n<div>\r\n	　　英国曼彻斯特大学科学家近期研制出了世界上分辨率最高的光学显微镜，能够观测50纳米大小的物体。这是世界上第一个能在普通白光照明下直接观测纳米级物体的光学显微镜。</div>\r\n<div>\r\n	&nbsp;</div>\r\n<div>\r\n	　　他们的成果发表在最新一期的《通信与自然》杂志上。由于光的衍射特性的限制，光学显微镜的观测极限通常约为1微米。研究人员通过为光学显微镜添加一种特殊&ldquo;透明微米球透镜&rdquo;，克服了上述障碍，使这一极限达到50纳米，观测能力提高了20倍。(注：1微米等于1000纳米)</div>\r\n<div>\r\n	&nbsp;</div>\r\n<div>\r\n	　　这项成果的核心是利用物体发散出的一种逐渐消失的&ldquo;隐失波&rdquo;。顾名思义，&ldquo;隐失波&rdquo;是一种逐步消失的光波，但很重要的是，它不受限于光的衍射极限，所以如果我们能捕捉住这种光，就很有希望观测到比传统成像办法高清许多的图像。曼彻斯特大学科研人员在&ldquo;透明微米球透镜&rdquo;的帮助下，收集到&ldquo;失波&rdquo;并把它转到传统显微镜，这样科学家用肉眼就可看到通常需要其它间接方法才能观测到的细微之处，譬如通过原子力显微镜或扫描电子显微镜观测。</div>\r\n<div>\r\n	&nbsp;</div>\r\n<div>\r\n	　　曼彻斯特大学激光加工研究中心的李琳教授认为，这项技术在生物学研究方面的应用前景广阔，特别是对细胞、细菌甚至是病毒的研究。</div>\r\n<div>\r\n	&nbsp;</div>\r\n<div>\r\n	　　李琳教授表示：&ldquo;目前应用于生物学研究领域的显微镜技术特别费时，举个例子，如果我们用荧光显微镜进行观测，需要花两天时间准备一个观测所需的样品，而这些准备好的样品只有10%到20%有用。因此，直接观察细胞技术的引进将能带来潜在的收益。&rdquo;</div>\r\n', '', '', '113.89.40.238');
 INSERT INTO `dede_addonarticle` VALUES ('7', '5', '<div>\r\n	O.C. White公司近日推出一款高分辨率的实时彩色图像系统，基于最新的显示器技术，这种称为&ldquo;Super Scope&rdquo;的系统不带显微镜，是该公司早期Super Scope 2000的后继产品。Super Scope捕获的图像可用于存档和发送e-mail，由于不采用显微镜方式，该系统能同时供多人观看图像，同时也可减轻由显微镜方式带来的眼睛疲劳和后背疼痛。</div>\r\n<div>\r\n	&nbsp;</div>\r\n<div>\r\n	Super Scope含有一个完整的14英寸的医疗级LCD视频系统，整合了一个高分辨率高灵敏度的1/2英寸相机，能够提供清晰的图像。此外Super Scope还提供标准的4至40倍(通过2&times;光学镜头可达80倍)放大范围。</div>\r\n<div>\r\n	&nbsp;</div>\r\n<div>\r\n	Super Scope系统具有音频输入、外部视频输入和输出端口，并可选配帧接收器和麦克风。配备光源的基本型Super Scope售价为4995美元，选配2倍光学镜头需再增加250美元(以上仅供参考)。</div>\r\n', '', '', '113.89.40.238');
+INSERT INTO `dede_addonarticle` VALUES ('8', '3', '<div>\r\n	本文对１９９６年￣１９９７年间稀土材料分析方面的进展进行了综述。内容包括概述，分离与富集方法，重量与滴定分析法，吸光光度法，荧光分析法，原子发现光谱法，原子吸收光谱法，Ｘ射线荧光光谱法，质谱分析法，电化学分析法，活化分析法，流动注射分析法等。</div>\r\n<div>\r\n	本文对１９９６年￣１９９７年间稀土材料分析方面的进展进行了综述。内容包括概述，分离与富集方法，重量与滴定分析法，吸光光度法，荧光分析法，原子发现光谱法，原子吸收光谱法，Ｘ射线荧光光谱法，质谱分析法，电化学分析法，活化分析法，流动注射分析法等。</div>\r\n<div>\r\n	本文对１９９６年￣１９９７年间稀土材料分析方面的进展进行了综述。内容包括概述，分离与富集方法，重量与滴定分析法，吸光光度法，荧光分析法，原子发现光谱法，原子吸收光谱法，Ｘ射线荧光光谱法，质谱分析法，电化学分析法，活化分析法，流动注射分析法等。</div>\r\n<div>\r\n	本文对１９９６年￣１９９７年间稀土材料分析方面的进展进行了综述。内容包括概述，分离与富集方法，重量与滴定分析法，吸光光度法，荧光分析法，原子发现光谱法，原子吸收光谱法，Ｘ射线荧光光谱法，质谱分析法，电化学分析法，活化分析法，流动注射分析法等。</div>\r\n<div>\r\n	本文对１９９６年￣１９９７年间稀土材料分析方面的进展进行了综述。内容包括概述，分离与富集方法，重量与滴定分析法，吸光光度法，荧光分析法，原子发现光谱法，原子吸收光谱法，Ｘ射线荧光光谱法，质谱分析法，电化学分析法，活化分析法，流动注射分析法等。</div>\r\n', '', '', '113.89.40.238');
+INSERT INTO `dede_addonarticle` VALUES ('9', '3', '<div>\r\n	磷（p）：304不锈钢带在一般情况下，磷是钢中有害元素，增加钢的冷脆性，使焊接性能变坏，降低塑性，使冷弯性能变坏。因此通常要求不锈钢中含磷量小于0.045%，优质钢要求更低些。</div>\r\n<div>\r\n	硫（s）：硫在通常情况下也是有害元素。使不锈钢产生热脆性，降低不锈钢的延展性和韧性，在锻造和轧制时造成裂纹。硫对焊接性能也不利，降低耐腐蚀性。所以通常要求硫含量小于0.055%，优质不锈钢带要求小于0.040%。在不锈钢中加入0.08-0.20%的硫，可以改善切削加工性，通常称易切削不锈钢。</div>\r\n<div>\r\n	&nbsp;</div>\r\n<div>\r\n	铬（cr）：在结构钢和工具钢中，铬能显著提高强度、硬度和耐磨性，但同时降低塑性和韧性。铬又能提高不锈钢的抗氧化性和耐腐蚀性，因而是不锈钢，耐热钢的重要合金元素。</div>\r\n<div>\r\n	&nbsp;</div>\r\n<div>\r\n	镍(ni)：镍能提高不锈钢带的强度，而又保持良好的塑性和韧性。镍对酸碱有较高的耐腐蚀能力，在高温下有防锈和耐热能力。但由于镍是较稀缺的资源，故应尽量采用其他合金元素代用镍铬钢。</div>\r\n<div>\r\n	304不锈钢带（//www.201bxg.cn）是钢铁厂将钢经过各种各样的化学反应生成的。且不锈钢材料一般化学成分含量都是比较稳定的。而且不锈钢材料的优点有不易被酸碱所腐蚀，材质不同材料的作用也会不同，316，304不锈钢带材料耐腐蚀、耐酸碱性都是非常出色的。并且不锈钢也不容易生锈。像那些要求长期可能在雨水中暴露的标牌大部分就会使用不锈钢做材料。就比如马路上的指示牌和路牌。店面上的招牌装修等都会多多少少用到不锈钢。还有不锈钢的另一个特点就是非常牢固耐用，不容易变形。</div>\r\n', '', '', '113.89.40.238');
+INSERT INTO `dede_addonarticle` VALUES ('10', '4', '<div>\r\n	为了提高酸性工频炉炉衬的使用寿命,本文从岩相学的角度对可锻熔炉石英砂衬的蚀损机理,进行了初步研究,找出了损毁的原因,为延长衬材的使用寿命提供参考或依据。</div>\r\n<div>\r\n	为了提高酸性工频炉炉衬的使用寿命,本文从岩相学的角度对可锻熔炉石英砂衬的蚀损机理,进行了初步研究,找出了损毁的原因,为延长衬材的使用寿命提供参考或依据。</div>\r\n<div>\r\n	为了提高酸性工频炉炉衬的使用寿命,本文从岩相学的角度对可锻熔炉石英砂衬的蚀损机理,进行了初步研究,找出了损毁的原因,为延长衬材的使用寿命提供参考或依据。</div>\r\n<div>\r\n	为了提高酸性工频炉炉衬的使用寿命,本文从岩相学的角度对可锻熔炉石英砂衬的蚀损机理,进行了初步研究,找出了损毁的原因,为延长衬材的使用寿命提供参考或依据。</div>\r\n<div>\r\n	为了提高酸性工频炉炉衬的使用寿命,本文从岩相学的角度对可锻熔炉石英砂衬的蚀损机理,进行了初步研究,找出了损毁的原因,为延长衬材的使用寿命提供参考或依据。</div>\r\n<div>\r\n	为了提高酸性工频炉炉衬的使用寿命,本文从岩相学的角度对可锻熔炉石英砂衬的蚀损机理,进行了初步研究,找出了损毁的原因,为延长衬材的使用寿命提供参考或依据。</div>\r\n<div>\r\n	为了提高酸性工频炉炉衬的使用寿命,本文从岩相学的角度对可锻熔炉石英砂衬的蚀损机理,进行了初步研究,找出了损毁的原因,为延长衬材的使用寿命提供参考或依据。</div>\r\n', '', '', '113.89.40.238');
+INSERT INTO `dede_addonarticle` VALUES ('11', '4', '<div>\r\n	介绍中频无心感应熔铝炉用新型干式成型耐火材料和使用情况。该炉衬材料热震稳定性好、抗渗透性强、施工周期短和使用...刘建军西安航天复合材料研究所任莉娜西安电炉研究所《工业加热》，</div>\r\n<div>\r\n	介绍中频无心感应熔铝炉用新型干式成型耐火材料和使用情况。该炉衬材料热震稳定性好、抗渗透性强、施工周期短和使用...刘建军西安航天复合材料研究所任莉娜西安电炉研究所《工业加热》.</div>\r\n<div>\r\n	介绍中频无心感应熔铝炉用新型干式成型耐火材料和使用情况。该炉衬材料热震稳定性好、抗渗透性强、施工周期短和使用...刘建军西安航天复合材料研究所任莉娜西安电炉研究所《工业加热》.</div>\r\n<div>\r\n	介绍中频无心感应熔铝炉用新型干式成型耐火材料和使用情况。该炉衬材料热震稳定性好、抗渗透性强、施工周期短和使用...刘建军西安航天复合材料研究所任莉娜西安电炉研究所《工业加热》.</div>\r\n<div>\r\n	介绍中频无心感应熔铝炉用新型干式成型耐火材料和使用情况。该炉衬材料热震稳定性好、抗渗透性强、施工周期短和使用...刘建军西安航天复合材料研究所任莉娜西安电炉研究所《工业加热》.</div>\r\n<div>\r\n	介绍中频无心感应熔铝炉用新型干式成型耐火材料和使用情况。该炉衬材料热震稳定性好、抗渗透性强、施工周期短和使用...刘建军西安航天复合材料研究所任莉娜西安电炉研究所《工业加热》.</div>\r\n', '', '', '113.89.40.238');
+INSERT INTO `dede_addonarticle` VALUES ('12', '6', '<div>\r\n	便携式 3D 扫描参考设计采用德州仪器 (ti) 的 DLP 软件开发套件 (SDK)，使得开发人员可以通过将 TI 的数字微镜器件 (DMD) 技术与摄像头、传感器、电机或其他外设集成来轻松构建精细的 3D 点云。作为紧凑或手持解决方案的理想之选，此高分辨率 3D 扫描仪系统利用 DLP&reg;</div>\r\n<div>\r\n	主要特色</div>\r\n<div>\r\n	&nbsp;</div>\r\n<div>\r\n	针对 DLP 芯片组的集成型 API 和驱动程序支持，可实现快速以及可编程图形</div>\r\n<div>\r\n	集成型摄像头支持，实现同步捕捉</div>\r\n<div>\r\n	投影仪和摄像头校准例程</div>\r\n<div>\r\n	用于生成视差图、景深图和点云的结构化照明算法</div>\r\n', '', '', '113.89.40.238');
+INSERT INTO `dede_addonarticle` VALUES ('13', '1', '公司愿景公司愿景公司愿景公司愿景公司愿景公司愿景公司愿景公司愿景公司愿景公司愿景公司愿景公司愿景公司愿景公司愿景', '', '', '113.89.40.238');
+INSERT INTO `dede_addonarticle` VALUES ('14', '7', '111111111111111111111111111111111111', '', '', '113.89.40.238');
 
 -- ----------------------------
 -- Table structure for dede_addonimages
@@ -200,7 +207,7 @@ CREATE TABLE `dede_admin` (
 -- ----------------------------
 -- Records of dede_admin
 -- ----------------------------
-INSERT INTO `dede_admin` VALUES ('1', '10', 'admin', 'c3949ba59abbe56e057f', 'admin', '', '', '0', '1584065361', '113.116.207.133');
+INSERT INTO `dede_admin` VALUES ('1', '10', 'admin', 'c3949ba59abbe56e057f', 'admin', '', '', '0', '1584491958', '113.89.40.238');
 
 -- ----------------------------
 -- Table structure for dede_admintype
@@ -325,10 +332,17 @@ CREATE TABLE `dede_archives` (
 -- Records of dede_archives
 -- ----------------------------
 INSERT INTO `dede_archives` VALUES ('3', '2', '0', '1584079626', 'h,p', '1', '1', '0', '149', '0', '水泥基材料力学性能正交试验探讨', '材料力学', '', '熊彬', '百度百科', '/uploads/allimg/200313/1-20031314101Y62.jpg', '1584079626', '1584079427', '1', '水泥,基材,材料', '0', '0', '0', '0', '0', '0', '高性能水泥基材料是近年发展起来的一种高性能混凝土材料，其特点是剔除了普通混凝土中的粗骨料、使用了精密分级石英砂细骨料、硅灰、高性能减水剂等材料，其抗压强度超过100M', 'shuinijicailiao', '1', '0', '0', '0');
-INSERT INTO `dede_archives` VALUES ('4', '2', '0', '1584080136', 'h,p', '1', '1', '0', '180', '0', '82B盘条拉伸断口形貌及力学性能分析', '82B盘拉伸力学', '', '熊彬', '百度百科', '/uploads/allimg/200313/1-2003131413460-L.jpg', '1584080136', '1584080096', '1', '82B盘条,拉伸断口,片层间距,力学性能', '0', '0', '0', '0', '0', '0', '通过光学显微镜、氧氮氢分析仪对82B盘条拉伸断口试样进行了显微组织、氧氮氢含量及夹杂物分析，并借助扫描电镜观察分析了断口形貌及索氏体片层间距，同时对比分析了自然时效前', 'lashenlixue', '1', '0', '0', '1');
-INSERT INTO `dede_archives` VALUES ('5', '5', '0', '1584081070', 'h,p', '1', '1', '0', '172', '0', '科学家突破光学显微成像分辨率极限', '光学显微成像分辨率', '', '熊彬', '百度百科', '/uploads/allimg/200313/1-20031314313GD.jpg', '1584081070', '1584080420', '1', '光学显微,分辨率', '0', '0', '0', '0', '0', '0', '美国科罗拉多州立大学科学家演示了一种空间分辨率达2η(η是非线性光强反应单位最高级)的多光子—空间频率调制成像(MP-SPIFI)技术，突破了光学显微成像分辨率极限。下面就随嵌入式小', '', '1', '0', '0', '2');
+INSERT INTO `dede_archives` VALUES ('4', '2', '0', '1584408240', 'c,h,p', '1', '1', '0', '180', '0', '82B盘条拉伸断口形貌及力学性能分析', '82B盘拉伸力学', '', '熊彬', '百度百科', '/uploads/allimg/200313/1-2003131413460-L.jpg', '1584408240', '1584080096', '1', '82B盘条,拉伸断口,片层间距,力学性能', '0', '0', '0', '0', '0', '0', '通过光学显微镜、氧氮氢分析仪对82B盘条拉伸断口试样进行了显微组织、氧氮氢含量及夹杂物分析，并借助扫描电镜观察分析了断口形貌及索氏体片层间距，同时对比分析了自然时效前', 'lashenlixue', '1', '0', '0', '1');
+INSERT INTO `dede_archives` VALUES ('5', '5', '0', '1584408302', 'h,p', '1', '1', '0', '172', '0', '科学家突破光学显微成像分辨率极限', '光学显微成像分辨率', '', '熊彬', '百度百科', '/uploads/allimg/200313/1-20031314313GD.jpg', '1584408302', '1584080420', '1', '光学显微,分辨率', '0', '0', '0', '0', '0', '0', '美国科罗拉多州立大学科学家演示了一种空间分辨率达2η(η是非线性光强反应单位最高级)的多光子—空间频率调制成像(MP-SPIFI)技术，突破了光学显微成像分辨率极限。下面就随嵌入式小', '', '1', '0', '0', '2');
 INSERT INTO `dede_archives` VALUES ('6', '5', '0', '1584080626', 'h,p', '1', '1', '0', '161', '0', '英研制分辨率最高光学显微镜 可观测50纳米物体', '高光学显微镜', '', '熊彬', '百度百科', '/uploads/allimg/200313/1-2003131425160-L.jpg', '1584080626', '1584080758', '1', '纳米,显微镜', '0', '0', '0', '0', '0', '0', '英国曼彻斯特大学科学家近期研制出了世界上分辨率最高的光学显微镜，能够观测50纳米大小的物体。这是世界上第一个能在普通白光照明下直接观测纳米级物体的光学显微镜。', '', '1', '0', '0', '3');
-INSERT INTO `dede_archives` VALUES ('7', '5', '0', '1584081430', 'h,p', '1', '1', '0', '103', '0', 'O.C. White推出无显微镜的高分辨率光学检测系统', '光学检测', '', '熊彬', '百度百科', '/uploads/allimg/200313/1-200313142H40-L.jpg', '1584081430', '1584080878', '1', 'o.c,white,推出,显微镜', '0', '0', '0', '0', '0', '0', '收藏\r\n评论0\r\n分享到\r\n微博\r\nQQ\r\n微信\r\nLinkedIn\r\nO.C. White公司近日推出一款高分辨率的实时彩色图像系统，基于最新的显示器技术，这种称为“Super Scope”的系统不带显微镜', '', '1', '0', '0', '4');
+INSERT INTO `dede_archives` VALUES ('7', '5', '0', '1584408313', 'c,h,p', '1', '1', '0', '103', '0', 'O.C. White推出无显微镜的高分辨率光学检测系统', '光学检测', '', '熊彬', '百度百科', '/uploads/allimg/200313/1-200313142H40-L.jpg', '1584408313', '1584080878', '1', 'o.c,white,推出,显微镜', '0', '0', '0', '0', '0', '0', '收藏\r\n评论0\r\n分享到\r\n微博\r\nQQ\r\n微信\r\nLinkedIn\r\nO.C. White公司近日推出一款高分辨率的实时彩色图像系统，基于最新的显示器技术，这种称为“Super Scope”的系统不带显微镜', '', '1', '0', '0', '4');
+INSERT INTO `dede_archives` VALUES ('8', '3', '0', '1584427901', 'p', '1', '1', '0', '53', '0', 'ICP-AES在稀土元素分析中的抗干扰技术的应用及进', '稀土元素分析', '', '熊彬', '百度百科', '/uploads/allimg/200317/1-20031G453060-L.jpg', '1584427901', '1584428114', '1', '原子发射光谱,稀土元素,分离方法,抗干扰技术', '0', '0', '0', '0', '0', '0', '综述了电感耦合等离子体原子发射光谱(ICP-AES)在稀土元素分析中的应用状况及发展趋势。主要介绍了分离技术与ICP光谱法的联用、ICP-AES在稀土元素分析中的抗干扰技术等。', '', '1', '0', '0', '5');
+INSERT INTO `dede_archives` VALUES ('9', '3', '0', '1584428249', 'p', '1', '1', '0', '132', '0', '304不锈钢带内的化学元素分析', '304不锈钢元素', '', '熊彬', '百度百科', '/uploads/allimg/200317/1-20031G45P40-L.jpg', '1584428249', '1584428319', '1', '304不锈钢,化学元素', '0', '0', '0', '0', '0', '0', '304不锈钢带在一般情况下，磷是钢中有害元素，增加钢的冷脆性，使焊接性能变坏，降低塑性，使冷弯性能变坏。因此通常要求不锈钢中含磷量小于0.045%，优质钢要求更低些。', '', '1', '0', '0', '6');
+INSERT INTO `dede_archives` VALUES ('10', '4', '0', '1584428568', 'p', '1', '1', '0', '127', '0', '酸性感应熔炉用后衬材的岩相分析', '岩相分析', '', '熊彬', '百度百科', '/uploads/allimg/200317/1-20031G505350-L.jpg', '1584428568', '1584428750', '1', '岩相分析 使用寿命 炉衬 蚀损机理,熔炉,酸性工频', '0', '0', '0', '0', '0', '0', '为了提高酸性工频炉炉衬的使用寿命,本文从岩相学的角度对可锻熔炉石英砂衬的蚀损机理,进行了初步研究,找出了损毁的原因,为延长衬材的使用寿命提供参考或依据。', '', '1', '0', '0', '7');
+INSERT INTO `dede_archives` VALUES ('11', '4', '0', '1584428755', 'p', '1', '1', '0', '131', '0', '无心感应熔铝炉的复合炉衬', '感应熔铝炉复合炉', '', '熊彬', '百度百科', '/uploads/allimg/200317/1-20031G50A90-L.jpg', '1584428755', '1584428871', '1', '无心感应炉，铝，结构，炉衬', '0', '0', '0', '0', '0', '0', '1.2t无心感应熔铝炉的复合炉衬结构,炉衬材料的配方及筑炉工艺。', '', '1', '0', '0', '8');
+INSERT INTO `dede_archives` VALUES ('12', '6', '0', '1584429249', 'p', '1', '1', '0', '81', '0', '采用DLP技术的便携式3D扫描参考设计包括BOM及组装', 'DLP技术的便携式3D扫描', '', '熊彬', '百度百科', '/uploads/allimg/200317/1-20031G515100-L.jpg', '1584429249', '1584429359', '1', 'DLP,便携，3D扫描', '0', '0', '0', '0', '0', '0', '便携式 3D 扫描参考设计采用德州仪器 (ti) 的 DLP 软件开发套件 (SDK)，使得开发人员可以通过将 TI 的数字微镜器件 (DMD) 技术与摄像头、传感器、电机或其他外设集成来轻松构建精细的 3', '', '1', '0', '0', '9');
+INSERT INTO `dede_archives` VALUES ('13', '1', '0', '1584492240', 'p', '1', '1', '0', '181', '0', '公司愿景', '愿景', '', '熊彬', '百度百科', '/uploads/allimg/200318/1-20031PT444I8.jpg', '1584492240', '1584492236', '1', '公司,愿景', '0', '0', '0', '0', '0', '0', '公司愿景摘要', '', '1', '0', '0', '10');
+INSERT INTO `dede_archives` VALUES ('14', '7', '0', '1584493458', 'p', '1', '1', '-2', '76', '0', '111', '111', '', '熊彬', '百度百科', '/uploads/allimg/200318/1-20031PZ4380-L.jpg', '1584493458', '1584493494', '1', '1111', '0', '0', '0', '0', '0', '0', '11111111111111111111111111', '', '1', '0', '0', '11');
 
 -- ----------------------------
 -- Table structure for dede_arcmulti
@@ -396,16 +410,23 @@ CREATE TABLE `dede_arctiny` (
   PRIMARY KEY (`id`),
   KEY `sortrank` (`sortrank`),
   KEY `idx_typeid_arcrank_sortrank` (`typeid`,`arcrank`,`sortrank`)
-) ENGINE=MyISAM AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=15 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of dede_arctiny
 -- ----------------------------
 INSERT INTO `dede_arctiny` VALUES ('3', '2', '0', '0', '1', '1584079427', '1584079626', '1');
-INSERT INTO `dede_arctiny` VALUES ('4', '2', '0', '0', '1', '1584080096', '1584080136', '1');
-INSERT INTO `dede_arctiny` VALUES ('5', '5', '0', '0', '1', '1584080420', '1584081070', '1');
+INSERT INTO `dede_arctiny` VALUES ('4', '2', '0', '0', '1', '1584080096', '1584408240', '1');
+INSERT INTO `dede_arctiny` VALUES ('5', '5', '0', '0', '1', '1584080420', '1584408302', '1');
 INSERT INTO `dede_arctiny` VALUES ('6', '5', '0', '0', '1', '1584080758', '1584080626', '1');
-INSERT INTO `dede_arctiny` VALUES ('7', '5', '0', '0', '1', '1584080878', '1584081430', '1');
+INSERT INTO `dede_arctiny` VALUES ('7', '5', '0', '0', '1', '1584080878', '1584408313', '1');
+INSERT INTO `dede_arctiny` VALUES ('8', '3', '0', '0', '1', '1584428114', '1584427901', '1');
+INSERT INTO `dede_arctiny` VALUES ('9', '3', '0', '0', '1', '1584428319', '1584428249', '1');
+INSERT INTO `dede_arctiny` VALUES ('10', '4', '0', '0', '1', '1584428750', '1584428568', '1');
+INSERT INTO `dede_arctiny` VALUES ('11', '4', '0', '0', '1', '1584428871', '1584428755', '1');
+INSERT INTO `dede_arctiny` VALUES ('12', '6', '0', '0', '1', '1584429359', '1584429249', '1');
+INSERT INTO `dede_arctiny` VALUES ('13', '1', '0', '0', '1', '1584492236', '1584492240', '1');
+INSERT INTO `dede_arctiny` VALUES ('14', '7', '0', '-2', '1', '1584493494', '1584493458', '1');
 
 -- ----------------------------
 -- Table structure for dede_arctype
@@ -442,21 +463,23 @@ CREATE TABLE `dede_arctype` (
   `crossid` text,
   `content` text,
   `smalltypes` text,
+  `typenameen` varchar(255) NOT NULL DEFAULT '',
   PRIMARY KEY (`id`),
   KEY `reid` (`reid`,`isdefault`,`channeltype`,`ispart`,`corank`,`topid`,`ishidden`),
   KEY `sortrank` (`sortrank`)
-) ENGINE=MyISAM AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=13 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of dede_arctype
 -- ----------------------------
-INSERT INTO `dede_arctype` VALUES ('1', '0', '0', '50', '公司愿景', '{cmspath}/a/gongsiyuanjing', '1', 'index.html', '1', '1', '-1', '0', '0', '{style}/index_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', '0', '', '', '0', '0', '', '', '');
-INSERT INTO `dede_arctype` VALUES ('2', '0', '0', '50', '力学性能', '{cmspath}/a/lixuexingnen', '1', 'index.html', '1', '1', '-1', '0', '0', '{style}/index_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', '0', '', '', '0', '0', '', '', '');
-INSERT INTO `dede_arctype` VALUES ('3', '0', '0', '50', '元素分析', '{cmspath}/a/yuansufenxi', '1', 'index.html', '1', '1', '-1', '0', '0', '{style}/index_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', '0', '', '', '0', '0', '', '', '');
-INSERT INTO `dede_arctype` VALUES ('4', '0', '0', '50', '材相分析', '{cmspath}/a/caixiangfenxi', '1', 'index.html', '1', '1', '-1', '0', '0', '{style}/index_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', '0', '', '', '0', '0', '', '', '');
-INSERT INTO `dede_arctype` VALUES ('5', '0', '0', '50', '光学显微', '{cmspath}/a/guangxuexianwei', '1', 'index.html', '1', '1', '-1', '0', '0', '{style}/index_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', '0', '', '', '0', '0', '', '', '');
-INSERT INTO `dede_arctype` VALUES ('6', '0', '0', '50', '3D扫描', '{cmspath}/a/3Dsaomiao', '1', 'index.html', '1', '1', '-1', '0', '0', '{style}/index_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', '0', '', '', '0', '0', '', '', '');
-INSERT INTO `dede_arctype` VALUES ('7', '0', '0', '50', '技术支持', '{cmspath}/a/jishuzhichi', '1', 'index.html', '1', '1', '-1', '0', '0', '{style}/index_article.htm', '{style}/list_article.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', '0', '', '', '0', '0', '', '', '');
+INSERT INTO `dede_arctype` VALUES ('1', '0', '0', '50', '公司愿景', '{cmspath}/a/gongsiyuanjing', '1', 'index.html', '1', '1', '-1', '0', '0', '{style}/index_article.htm', '{style}/about.htm', '{style}/about.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', '0', '{cmspath}/a/gongsiyuanjing', '', '0', '0', '', '&nbsp;', '', '');
+INSERT INTO `dede_arctype` VALUES ('2', '0', '0', '50', '力学性能', '{cmspath}/a/lixuexingnen', '1', 'index.html', '1', '1', '-1', '0', '0', '{style}/index_article.htm', '{style}/lixue.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', '0', '{cmspath}/a/lixuexingnen', '', '0', '0', '', '&nbsp;', '', '');
+INSERT INTO `dede_arctype` VALUES ('3', '0', '0', '50', '元素分析', '{cmspath}/a/yuansufenxi', '1', 'index.html', '1', '1', '-1', '0', '0', '{style}/index_article.htm', '{style}/lixue.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', '0', '{cmspath}/a/yuansufenxi', '', '0', '0', '', '&nbsp;', '', '');
+INSERT INTO `dede_arctype` VALUES ('4', '0', '0', '50', '材相分析', '{cmspath}/a/caixiangfenxi', '1', 'index.html', '1', '1', '-1', '0', '0', '{style}/index_article.htm', '{style}/lixue.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', '0', '{cmspath}/a/caixiangfenxi', '', '0', '0', '', '&nbsp;', '', '');
+INSERT INTO `dede_arctype` VALUES ('5', '0', '0', '50', '光学显微', '{cmspath}/a/guangxuexianwei', '1', 'index.html', '1', '1', '-1', '0', '0', '{style}/index_article.htm', '{style}/lixue.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', '0', '{cmspath}/a/guangxuexianwei', '', '0', '0', '', '&nbsp;', '', '');
+INSERT INTO `dede_arctype` VALUES ('6', '0', '0', '50', '3D扫描', '{cmspath}/a/3Dsaomiao', '1', 'index.html', '1', '1', '-1', '0', '0', '{style}/index_article.htm', '{style}/lixue.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', '0', '{cmspath}/a/3Dsaomiao', '', '0', '0', '', '&nbsp;', '', '');
+INSERT INTO `dede_arctype` VALUES ('7', '0', '0', '50', '技术支持', '{cmspath}/a/jishuzhichi', '1', 'index.html', '1', '1', '-1', '0', '0', '{style}/index_article.htm', '{style}/jishuzhichi.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', '0', '{cmspath}/a/jishuzhichi', '', '0', '0', '', '&nbsp;', '', '');
+INSERT INTO `dede_arctype` VALUES ('12', '0', '0', '50', '服务内容', '{cmspath}/a/fuwuneirong', '1', 'index.html', '1', '1', '-1', '0', '0', '{style}/index_article.htm', '{style}/service.htm', '{style}/article_article.htm', '{typedir}/{Y}/{M}{D}/{aid}.html', '{typedir}/list_{tid}_{page}.html', 'default', '', '', '', '0', '{cmspath}/a/fuwuneirong', '', '1', '0', '', '&nbsp;', '', '');
 
 -- ----------------------------
 -- Table structure for dede_area
@@ -1632,7 +1655,7 @@ CREATE TABLE `dede_member` (
 -- ----------------------------
 -- Records of dede_member
 -- ----------------------------
-INSERT INTO `dede_member` VALUES ('1', '个人', 'admin', 'e10adc3949ba59abbe56e057f20f883e', 'admin', '男', '100', '0', '0', '0', '', '10000', '10', '0', '', '0', '', '1584005163', '', '1584065361', '113.116.207.133', '-1');
+INSERT INTO `dede_member` VALUES ('1', '个人', 'admin', 'e10adc3949ba59abbe56e057f20f883e', 'admin', '男', '100', '0', '0', '0', '', '10000', '10', '0', '', '0', '', '1584005163', '', '1584491958', '113.89.40.238', '-1');
 INSERT INTO `dede_member` VALUES ('2', '个人', 'tianya', 'fcea920f7412b5da7be0cf42b8c93759', '天涯', '', '10', '0', '0', '0', 'tianya@dedecms.com', '115', '0', '2', '', '0', '', '1270622445', '127.0.0.1', '1270622445', '127.0.0.1', '-1');
 INSERT INTO `dede_member` VALUES ('3', '个人', 'wind', 'e10adc3949ba59abbe56e057f20f883e', '木林森', '', '10', '0', '0', '0', 'wind@dedecms.com', '100', '0', '2', '', '0', '', '1270623901', '127.0.0.1', '1270623901', '127.0.0.1', '-1');
 INSERT INTO `dede_member` VALUES ('4', '个人', 'like', 'e10adc3949ba59abbe56e057f20f883e', 'like', '', '10', '0', '0', '0', 'like@dedecms.com', '113', '0', '2', '', '0', '', '1270624079', '127.0.0.1', '1270624079', '127.0.0.1', '-1');
@@ -2050,8 +2073,6 @@ CREATE TABLE `dede_member_vhistory` (
 -- ----------------------------
 -- Records of dede_member_vhistory
 -- ----------------------------
-INSERT INTO `dede_member_vhistory` VALUES ('1', '5', 'yuejie', '4', 'like', '2', '127.0.0.1', '1270776001');
-INSERT INTO `dede_member_vhistory` VALUES ('2', '3', 'wind', '2', 'tianya', '2', '127.0.0.1', '1270776036');
 
 -- ----------------------------
 -- Table structure for dede_moneycard_record
@@ -2567,9 +2588,9 @@ INSERT INTO `dede_stepselect` VALUES ('9', '婚姻', 'marital', '1', '1');
 INSERT INTO `dede_stepselect` VALUES ('10', '是否抽烟', 'smoke', '1', '1');
 INSERT INTO `dede_stepselect` VALUES ('11', '星座', 'star', '1', '1');
 INSERT INTO `dede_stepselect` VALUES ('12', '系统缓存标识', 'system', '1', '1');
-INSERT INTO `dede_stepselect` VALUES ('13', '行业', 'vocation', '0', '0');
-INSERT INTO `dede_stepselect` VALUES ('14', '地区', 'nativeplace', '0', '0');
-INSERT INTO `dede_stepselect` VALUES ('15', '信息类型', 'infotype', '0', '0');
+INSERT INTO `dede_stepselect` VALUES ('13', '行业', 'vocation', '2', '0');
+INSERT INTO `dede_stepselect` VALUES ('14', '地区', 'nativeplace', '2', '0');
+INSERT INTO `dede_stepselect` VALUES ('15', '信息类型', 'infotype', '2', '0');
 
 -- ----------------------------
 -- Table structure for dede_sys_enum
@@ -6193,7 +6214,7 @@ CREATE TABLE `dede_tagindex` (
   `monthup` int(10) unsigned NOT NULL DEFAULT '0',
   `addtime` int(10) unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=19 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=36 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of dede_tagindex
@@ -6216,6 +6237,23 @@ INSERT INTO `dede_tagindex` VALUES ('15', '显微镜', '5', '0', '2', '0', '0', 
 INSERT INTO `dede_tagindex` VALUES ('16', 'o.c', '5', '0', '1', '0', '0', '1584080878', '1584080878', '1584080878');
 INSERT INTO `dede_tagindex` VALUES ('17', 'white', '5', '0', '1', '0', '0', '1584080878', '1584080878', '1584080878');
 INSERT INTO `dede_tagindex` VALUES ('18', '推出', '5', '0', '1', '0', '0', '1584080878', '1584080878', '1584080878');
+INSERT INTO `dede_tagindex` VALUES ('19', '原子发射光谱', '3', '0', '1', '0', '0', '1584428114', '1584428114', '1584428114');
+INSERT INTO `dede_tagindex` VALUES ('20', '稀土元素', '3', '0', '1', '0', '0', '1584428114', '1584428114', '1584428114');
+INSERT INTO `dede_tagindex` VALUES ('21', '分离方法', '3', '0', '1', '0', '0', '1584428114', '1584428114', '1584428114');
+INSERT INTO `dede_tagindex` VALUES ('22', '抗干扰技术', '3', '0', '1', '0', '0', '1584428114', '1584428114', '1584428114');
+INSERT INTO `dede_tagindex` VALUES ('23', '304不锈钢', '3', '0', '1', '0', '0', '1584428319', '1584428319', '1584428319');
+INSERT INTO `dede_tagindex` VALUES ('24', '化学元素', '3', '0', '1', '0', '0', '1584428319', '1584428319', '1584428319');
+INSERT INTO `dede_tagindex` VALUES ('25', '熔炉', '4', '0', '1', '0', '0', '1584428750', '1584428750', '1584428750');
+INSERT INTO `dede_tagindex` VALUES ('26', '酸性工频炉', '4', '0', '1', '0', '0', '1584428750', '1584428750', '1584428750');
+INSERT INTO `dede_tagindex` VALUES ('27', '分析结果', '4', '0', '1', '0', '0', '1584428750', '1584428750', '1584428750');
+INSERT INTO `dede_tagindex` VALUES ('28', '方石英', '4', '0', '1', '0', '0', '1584428750', '1584428750', '1584428750');
+INSERT INTO `dede_tagindex` VALUES ('29', '合剂', '4', '0', '1', '0', '0', '1584428750', '1584428750', '1584428750');
+INSERT INTO `dede_tagindex` VALUES ('30', '感应炉', '4', '0', '1', '0', '0', '1584428750', '1584428750', '1584428750');
+INSERT INTO `dede_tagindex` VALUES ('31', 'DLP', '6', '0', '1', '0', '0', '1584429359', '1584429359', '1584429359');
+INSERT INTO `dede_tagindex` VALUES ('32', '便携，3D扫描', '6', '0', '1', '0', '0', '1584429359', '1584429359', '1584429359');
+INSERT INTO `dede_tagindex` VALUES ('33', '公司', '1', '0', '1', '0', '0', '1584492236', '1584492236', '1584492236');
+INSERT INTO `dede_tagindex` VALUES ('34', '愿景', '1', '0', '1', '0', '0', '1584492236', '1584492236', '1584492236');
+INSERT INTO `dede_tagindex` VALUES ('35', '1111', '7', '0', '1', '0', '0', '1584493494', '1584493494', '1584493494');
 
 -- ----------------------------
 -- Table structure for dede_taglist
@@ -6250,6 +6288,23 @@ INSERT INTO `dede_taglist` VALUES ('16', '7', '0', '5', 'o.c');
 INSERT INTO `dede_taglist` VALUES ('17', '7', '0', '5', 'white');
 INSERT INTO `dede_taglist` VALUES ('18', '7', '0', '5', '推出');
 INSERT INTO `dede_taglist` VALUES ('15', '7', '0', '5', '显微镜');
+INSERT INTO `dede_taglist` VALUES ('19', '8', '0', '3', '原子发射光谱');
+INSERT INTO `dede_taglist` VALUES ('20', '8', '0', '3', '稀土元素');
+INSERT INTO `dede_taglist` VALUES ('21', '8', '0', '3', '分离方法');
+INSERT INTO `dede_taglist` VALUES ('22', '8', '0', '3', '抗干扰技术');
+INSERT INTO `dede_taglist` VALUES ('23', '9', '0', '3', '304不锈钢');
+INSERT INTO `dede_taglist` VALUES ('24', '9', '0', '3', '化学元素');
+INSERT INTO `dede_taglist` VALUES ('25', '10', '0', '4', '熔炉');
+INSERT INTO `dede_taglist` VALUES ('26', '10', '0', '4', '酸性工频炉');
+INSERT INTO `dede_taglist` VALUES ('27', '10', '0', '4', '分析结果');
+INSERT INTO `dede_taglist` VALUES ('28', '10', '0', '4', '方石英');
+INSERT INTO `dede_taglist` VALUES ('29', '10', '0', '4', '合剂');
+INSERT INTO `dede_taglist` VALUES ('30', '10', '0', '4', '感应炉');
+INSERT INTO `dede_taglist` VALUES ('31', '12', '0', '6', 'DLP');
+INSERT INTO `dede_taglist` VALUES ('32', '12', '0', '6', '便携，3D扫描');
+INSERT INTO `dede_taglist` VALUES ('33', '13', '0', '1', '公司');
+INSERT INTO `dede_taglist` VALUES ('34', '13', '0', '1', '愿景');
+INSERT INTO `dede_taglist` VALUES ('35', '14', '0', '7', '1111');
 
 -- ----------------------------
 -- Table structure for dede_uploads
@@ -6270,7 +6325,7 @@ CREATE TABLE `dede_uploads` (
   PRIMARY KEY (`aid`),
   KEY `memberid` (`mid`),
   KEY `arcid` (`arcid`)
-) ENGINE=MyISAM AUTO_INCREMENT=49 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=58 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of dede_uploads
@@ -6323,6 +6378,14 @@ INSERT INTO `dede_uploads` VALUES ('45', '5', '科学家突破光学显微成像
 INSERT INTO `dede_uploads` VALUES ('46', '6', '英研制分辨率最高光学显微镜 可观测50纳米物体', '/uploads/allimg/200313/1-2003131425160-L.jpg', '1', '0', '0', '0', '23945', '1584080716', '1');
 INSERT INTO `dede_uploads` VALUES ('47', '7', 'O.C. White推出无显微镜的高分辨率光学检测系统', '/uploads/allimg/200313/1-200313142H40-L.jpg', '1', '0', '0', '0', '22757', '1584080844', '1');
 INSERT INTO `dede_uploads` VALUES ('48', '5', '科学家突破光学显微成像分辨率极限', '/uploads/allimg/200313/1-20031314313GD.jpg', '1', '641', '300', '0', '22757', '1584081097', '1');
+INSERT INTO `dede_uploads` VALUES ('50', '8', 'ICP-AES在稀土元素分析中的抗干扰技术的应用及进', '/uploads/allimg/200317/1-20031G453060-L.jpg', '1', '0', '0', '0', '39995', '1584427986', '1');
+INSERT INTO `dede_uploads` VALUES ('51', '9', '304不锈钢带内的化学元素分析', '/uploads/allimg/200317/1-20031G45P40-L.jpg', '1', '0', '0', '0', '106457', '1584428284', '1');
+INSERT INTO `dede_uploads` VALUES ('52', '10', '酸性感应熔炉用后衬材的岩相分析', '/uploads/allimg/200317/1-20031G505350-L.jpg', '1', '0', '0', '0', '31159', '1584428735', '1');
+INSERT INTO `dede_uploads` VALUES ('53', '11', '无心感应熔铝炉的复合炉衬', '/uploads/allimg/200317/1-20031G50A90-L.jpg', '1', '0', '0', '0', '35369', '1584428819', '1');
+INSERT INTO `dede_uploads` VALUES ('54', '12', '采用DLP技术的便携式3D扫描参考设计包括BOM及组装', '/uploads/allimg/200317/1-20031G515100-L.jpg', '1', '0', '0', '0', '38944', '1584429310', '1');
+INSERT INTO `dede_uploads` VALUES ('55', '13', '公司愿景', '/uploads/allimg/200318/1-20031PT2490-L.jpg', '1', '0', '0', '0', '27151', '1584492169', '1');
+INSERT INTO `dede_uploads` VALUES ('56', '13', '公司愿景', '/uploads/200318/1-20031PT444I8.jpg', '1', '641', '300', '0', '27151', '1584492284', '1');
+INSERT INTO `dede_uploads` VALUES ('57', '14', '111', '/uploads/allimg/200318/1-20031PZ4380-L.jpg', '1', '0', '0', '0', '27151', '1584493478', '1');
 
 -- ----------------------------
 -- Table structure for dede_verifies

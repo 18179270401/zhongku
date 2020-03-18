@@ -1,0 +1,10 @@
+	/* text selection */
+	::selection {
+		background: #ffc20f; /* Safari */
+		color:#fff;
+	}
+
+	::-moz-selection {
+		background: #ffc20f; /* Firefox */
+		color:#fff;
+	}

@@ -33,7 +33,7 @@ $z[5][4]['flag']="h";
 $z[5][4]['row']="5";
 $z[5][4]['orderby']="hot";
 $z[5][4]['channelid']="1";
-$z[6]=Array("include","",5570,5607);
+$z[6]=Array("include","",5565,5602);
 $z[6][4]=array();
 $z[6][4]['filename']="footer.htm";
 
