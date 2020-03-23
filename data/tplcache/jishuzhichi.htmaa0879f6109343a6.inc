@@ -30,10 +30,10 @@ $z[8][4]['name']="cfg_mobileurl";
 $z[9]=Array("field","",1240,1256);
 $z[9][4]=array();
 $z[9][4]['name']="id";
-$z[10]=Array("include","",3008,3043);
+$z[10]=Array("include","",2124,2159);
 $z[10][4]=array();
 $z[10][4]['filename']="head.htm";
-$z[11]=Array("include","",14721,14758);
+$z[11]=Array("include","",13950,13987);
 $z[11][4]=array();
 $z[11][4]['filename']="footer.htm";
 

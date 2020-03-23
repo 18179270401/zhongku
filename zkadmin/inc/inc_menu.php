@@ -56,6 +56,7 @@ $menusMain = "
   <m:item name='手机banner管理' link='bannertel.php' rank='sys_verify' target='main' />
   <m:item name='内容回收站' link='recycling.php' ischannel='1' addalt='清空回收站' addico='images/gtk-del.png' linkadd='archives_do.php?dopost=clear&aid=no&recycle=1' rank='a_List,a_AccList,a_MyList' target='main' />
   <m:item name='上传新文件' link='media_add.php' rank='' target='main' />
+  <m:item name='留言记录' link='leave_message.php' rank='' target='main' />
   <m:item name='附件数据管理' link='media_main.php' rank='sys_Upload,sys_MyUpload' target='main' />
   <m:item name='一键更新网站' link='makehtml_all.php' rank='sys_MakeHtml' target='main' />
   <m:item name='更新系统缓存' link='sys_cache_up.php' rank='sys_ArcBatch' target='main' />

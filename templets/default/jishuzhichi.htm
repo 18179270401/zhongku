@@ -18,35 +18,6 @@
 <link rel="stylesheet" id="theme-style-css" href="/CSS/jishuzhichi/style.css" type="text/css" media="all">
 <script type="text/javascript" src="/CSS/jishuzhichi/jquery.js"></script>
 
-<script>
-    function scheck() {
-        var keyword = window.document.getElementById("keyword").value;
-        if (keyword == "") {
-        alert("请输入关键字");
-        return false;
-        }
-        var params = '{keyword:"' + keyword + '"}';
-        var url = "/2019/search.aspx/encryptword"
-        jQuery.ajax({
-        type: "POST",                   //提交方式 
-        url: url,                           //提交的页面/方法名 
-        data: params,                   //参数（如果没有参数：null） 
-        dataType: "text",               //类型 
-        contentType: "application/json; charset=utf-8",
-
-        //成功
-        success: function (msg) {
-            var data = eval("(" + msg + ")").d;
-            window.location.href = "/zh-cn/search/" + data + ".html";
-        }
-
-        });
-
-    }
-</script>
-
-
-
 </head>
 
 <body class="page responsive menu-style-one with_subs wide header-design1 with_subs">
@@ -97,7 +68,8 @@
                     <div class="box two-three margin-t40">
                       <h3>—— 在线留言</h3>
                       <p><img src="/CSS/jishuzhichi/contact_title.png" alt=""></p>
-                      <p><i class="decs_text">为了更好的为您提供服务，请尽可能详细的填写以下信息。带<span style="color: #f00">*</span>的为必填项！</i> </p>
+                      <p class="contact_tip_start"><i class="decs_text">为了更好的为您提供服务，请尽可能详细的填写以下信息。带<span style="color: #f00">*</span>的为必填项！</i> </p>
+                      <p class="contact_tip_end" style="display:none;"> 感谢您对众酷的信赖与支持，我们会尽快处理并及时给您答复！ </p>
                       <div class="contact_form dynamic-class-39083 fadeInDown animated">
                         <div class="clear"></div>
                         <div class="result"></div>
@@ -213,9 +185,7 @@
                                   <td width="50%" colspan="2">
                                     <li class="buttons ">
                                       <div>
-                                        <a id="lbtnSubmit"
-                                          class="button_ default medium margin-t0 align bounceIn animated"
-                                          href="javascript:void(0);">提交留言</a>
+                                        <a id="lbtnSubmit" href="javascript:submit_message();" class="button_ default medium margin-t0 align bounceIn animated" >提交留言</a>
                                       </div>
                                     </li>
                                   </td>
@@ -243,8 +213,73 @@
     
   
   {dede:include filename="footer.htm"/}
-  </body>
-
-
-
+</body>
 </html>
+
+<script>
+  function submit_message() {
+    
+    // falg标志位， 0-信息不完善，不可提交； 1-信息完善可以提交
+    var falg = 0;
+
+    var subject = $("input[name='Subject']:checked").val();  
+    console.log(subject);
+    var company = $('#txtcompany').val();
+    console.log(company);
+    var username = $('#txtfirstname').val();
+    console.log(username);
+    var email = $('#txtemail').val();
+    console.log(email);
+    var mobile = $('#txtmobile').val();
+    console.log(mobile);
+    var country = $('#txtcountry').val();
+    console.log(country);
+    var address = $('#txtaddress').val();
+    console.log(address);
+    var detail = $('#txtdetail').val();
+    console.log(detail);
+
+
+    protocolStr = document.location.protocol;
+    console.log(protocolStr);
+    var hostname = location.hostname;
+    console.log(hostname);
+    var  port = location.port;
+    console.log(port);
+    var myhost = location.host;
+    console.log(myhost);
+
+    // 拼接url请求地址
+    var url = protocolStr + '//' + myhost + '/a/jishuzhichi/leave_message.php';
+    console.log(url);
+
+
+
+    
+    $.ajax({
+      type: "POST",                   //提交方式 
+      url: url,                           //提交的页面/方法名 
+      data: {"subject":subject, "company":company, "username":username, "email":email, "mobile":mobile, "country":country, "address":address, "detail":detail},                   //参数（如果没有参数：null） 
+      dataType: "JSON",               //类型 
+      async: true,
+      success: function (data) {
+        console.log(data);
+        if(data.code == 200){
+          // 隐藏信息输入框
+          $('.contact_form').css("display", "none");
+
+          // 成功提交提示文字
+          $('.contact_tip_start').css('display', 'none');
+          $('.contact_tip_end').css('display', 'block');
+        }else{
+          // 提示错误信息
+          alert(data.message)
+        }
+      }
+
+    });
+    
+
+  }
+</script>
+
